@@ -12,13 +12,16 @@ dependencies:
   flutter:
     sdk: flutter
   url_launcher: ^5.4.7
-
   cupertino_icons: ^0.1.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^0.1.9
 
 flutter:
-
   uses-material-design: true
+
+flutter_native_splash:
+  image: assets/whats.png
+  color: "075e54"
